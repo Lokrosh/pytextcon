@@ -1,17 +1,17 @@
-# pycon_text
+# pytextcon
 
-PyCon_Text is a lightweight, simple package designed to make basic changes to the text color, text emphasis, and background color of print statements to the console simple.
+pytextcon is a lightweight, simple package designed to make basic changes to the text color, text emphasis, and background color of print statements to the console simple.
 ## Getting Started
-Download pycon_text:
-```pycon
-pip install pycon_text
+Download pytextcon:
+```python
+pip install pytextcon
 ```
 ## Usage
 Use an f-string to include text formatting to print statements. Formatting will continue 
 until cleared. Use `RESET` to end all formatting. Use `DEFAULT` to clear text color only. 
 ### Example:
 ```Python
-import pycon_text as text
+import pytextcon as text
 
 print(f"{text.BOLD}{text.BLUE}Some text that will be bold and blue.{text.DEFAULT}\
 Some other text that will be bold but not blue")
